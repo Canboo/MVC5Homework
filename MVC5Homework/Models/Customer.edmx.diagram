@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="57b3cae6bda74b608d5e7a86053a2ab1" Name="Diagram1">
+        <EntityTypeShape EntityType="CustomerModel.客戶資料" Width="1.5" PointX="5.375" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CustomerModel.客戶銀行資訊" Width="1.5" PointX="7.625" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CustomerModel.客戶聯絡人" Width="1.5" PointX="7.625" PointY="4.25" IsExpanded="true" />
+        <AssociationConnector Association="CustomerModel.FK_客戶銀行資訊_客戶資料" ManuallyRouted="false" />
+        <AssociationConnector Association="CustomerModel.FK_客戶聯絡人_客戶資料" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
